@@ -18,3 +18,7 @@ dequeue (.poll(), .remove()) - remove the item at the head of the queue
 ### Note
 
 add(), remove() and reveal() throw exceptions, so offer(), poll() and peak() are preferable
+
+### Uses
+
+- keyboard buffers

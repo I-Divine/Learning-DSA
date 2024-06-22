@@ -6,7 +6,6 @@ public class main {
         Queue myQueue = new LinkedList<String>();
         System.out.println(myQueue.isEmpty());
         
-        
         myQueue.offer("Karen");
         myQueue.offer("Chad");
         myQueue.offer("Troll");
