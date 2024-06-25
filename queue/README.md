@@ -1,6 +1,7 @@
 # What is a Queue ?
 
 A queue is a FIFO data structure - First In First Out
+A queue is a collection designed
 Like a real life queue, first come first served
 New items are added the end of the queue - called the tail
 Items are removed from the beginning of the queue - called the head
@@ -21,4 +22,6 @@ add(), remove() and reveal() throw exceptions, so offer(), poll() and peak() are
 
 ### Uses
 
-- keyboard buffers
+- keyboard buffers (Keys must display in order)
+- Printer queues (Print jobs must execute in order)
+- Priority queues, Linked Lists and Breadth First Search
